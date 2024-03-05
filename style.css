@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 60px 80px;
-    background-color:burlywood;
+    background-color:#35374B;
    
 }
 
@@ -13,7 +13,7 @@ h1, h2 {
 .input-section {
     display: flex;
     flex-direction: row;
-    justify-content: center; /* Changed from space-between to flex-start */
+    justify-content: center;
     align-items: center;
     padding: 10px;
 
@@ -61,7 +61,7 @@ th, td {
 }
 
 th {
-    background-color: rgb(215, 222, 38);
+    background-color: peru;
     color: rgb(12, 1, 1);
 }
 
