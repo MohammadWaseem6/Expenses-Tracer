@@ -12,7 +12,6 @@ addBtn.addEventListener('click', function () {
     const category = categorySelect.value;
     const amount = Number(amountInput.value);
     const date = dateInput.value;
-
     if (category === '') {
         alert('please select a category');
         return;
@@ -26,7 +25,6 @@ addBtn.addEventListener('click', function () {
         return;
     }
     expenses.push({ category, amount, date })
-
     totalAmount += amount;
     totalAmountCell.textContent = totalAmount;
 
